@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+/* FONTS */
+
+.myName, .fullstack {
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+    position: relative;
+    top: 35%;
+    left: 2%;
+}
+
+.myName {
+    margin: 0 auto;
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+}
+
+.fullstack {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.aboutTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    position: relative;
+    top: -30%;
+    left: 22%;
+}
+
+.skills {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6rem;
+    position: relative;
+    top: 10%;
+    left: -20%;
+    color: white;
+}
+
+.aboutMe {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 56.6%;
+    top: 50%;
+}
+
+ul {
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 40%;
+    left: 320px;
+}
+
+li {
+    text-align: left;
+}
+
+
+a {
+    font-size: 22px;
+    margin: 10px;
+}
+
+
+
+
+
+img {
+    height: 100px;
+    position: absolute;
+    display: flex;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* DIVS */
+
+.blueDiv {
+    background-color: #9AC5F4;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.middleContainer {
+    background-color: #eff2eb;
+    height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bottomContainer {
+    background-color: #4F709C;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footerDiv {
+    background-color: #eff2eb;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* IMAGES */
+
+.blueCircle {
+    width: 450px;
+    height: 450px;
+    top: 220px;
+    left: 220px;
+    border-radius: 50%;
+    background-color: #9AC5F4;
+    position: relative;
+}
+
+.whiteCircle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: -15%;
+    right: -59%;
+
+}
+
+.dog {
+    height: 450px;
+    top: 300px;
+    left: 260px;
+    z-index: 2;
+}
+
+.coding {
+    height: 450px;
+    top: 30%;
+    right: 15%;
+    z-index: 2;
+}
+
+.c1 {
+    top: -250px;
+    height: 350px;
+    right: -300px;
+    flex: 1;
+}
+
+.c2 {
+    top: 200px;
+    height: 400px;
+    left: -350px;
+    flex: 1;
+}
+
+.c3 {
+    top: -150px;
+}
+
+.c4 {
+    height: 0px;
+}
+
+@media (max-width: 700px) {
+
+    /* TOP DIV */
+    .blueDiv {
+        height: 935px;
+    }
+
+   .c1 {
+    height: 20%;
+    top: 1%;
+    right: -70%;
+   } 
+
+   .c2 {
+    height: 20%;
+    top: 78%;
+    left: -30%;
+   }
+
+   .c3 {
+    height: 20%;
+    right: 50%;
+   }
+
+   .c4 {
+    height: 0%;
+   }
+
+   .myName, .fullstack {
+    left: -1%;
+   }
+
+   /* ABOUT ME */
+   .middleContainer {
+    height: 1150px;
+   }
+
+   .aboutTitle {
+    top: 20%;
+    left: 1%;
+   }
+
+   .blueCircle {
+    height: 300px;
+    width: 300px;
+    top: 14%;
+    left: 10%;
+   }
+
+   .dog {
+    height: 300px;
+    top: 18%;
+    left: 20%;
+   }
+
+   .aboutMe {
+    top: 75%;
+    left: 3%;
+   }
+
+   /* SKILLS */
+   .bottomContainer {
+    height: 1200px;
+   }
+
+   .skills {
+    top: 40%;
+    left: -1%;
+   }
+
+   .whiteCircle {
+    height: 300px;
+    width: 300px;
+    top: -10%;
+    left: 10%;
+   }
+
+   .coding {
+    height: 300px;
+    top: 18%;
+    left: 20%;
+   }
+
+   ul {
+    top: 60%;
+    left: 20%;
+   }
+}
